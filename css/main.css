@@ -1,0 +1,95 @@
+body
+{
+    background-color: #181626;
+    height: 200vh;
+}
+
+.primeiro
+{
+    padding-top: 300px;
+}
+
+h1
+{
+    padding-left: 100px;
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color:#62BF49;
+}
+
+h2
+{
+    padding-left: 100px;
+    text-align: left;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color:#62BF49;
+}
+a.btn-aqui
+{
+    font-weight: bold;
+    color: #62BF49;
+    transition:500ms; 
+}
+a.btn-aqui:hover
+{
+    color: #4962F2;
+}
+
+.perfil
+{
+    padding-top: 400px;
+    padding-left: 700px;
+    padding-bottom: 100px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.foto-eu
+{
+    height: 400px;
+}
+
+.filhoP
+{
+    padding-top: 40px;
+    transition: 500ms;
+}
+.filhoP:hover
+{
+    color: #4962F2;
+    font-size: 84px;
+}
+.pzin
+{
+    transition:500ms;
+}
+
+.pzin:hover
+{
+    color: #4962F2;
+    font-size: 84px;
+}
+
+h3
+{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color:#62BF49;
+}
+
+.conteudo
+{
+    padding-right: 100px;
+}
+
+ h1.infos
+{
+    text-align: center;
+}
+h2.infos
+{
+    text-align: center;
+}
