@@ -3,6 +3,12 @@ body
     background-color: #181626;
     height: 200vh;
 }
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
 
 .primeiro
 {
@@ -37,6 +43,11 @@ a.btn-aqui
 a.btn-aqui:hover
 {
     color: #4962F2;
+}
+
+.logo
+{
+    height: 500px;
 }
 
 .perfil
