@@ -311,6 +311,11 @@ a.contatar > i
     margin: auto;
 }
 
+h2.contact-title
+{
+   padding-left: 50px;
+}
+
 .contato-input
 {
     border: none;
@@ -319,6 +324,9 @@ a.contatar > i
     border-color: #62BF49;
     box-shadow:1px 0 12px #62BF49;
     color: #62BF49;
+    padding: 6px;
+    text-align: center;
+    
 }
 
 .contato-textarea
@@ -341,8 +349,10 @@ a.contatar > i
     color: #4962F2;
     font-weight: bold;
     font-family:'Bebas Neue', cursive;
-    margin: 50px 50px;
+    margin: 50px 10px;
     text-align: center;
+    padding: 12px;
+    
 }
 .mensagem-erro
 {
