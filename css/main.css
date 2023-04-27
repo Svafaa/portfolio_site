@@ -1,3 +1,4 @@
+/*inicial*/
 body
 {
     background-color: #181626;
@@ -48,9 +49,11 @@ a.btn-aqui:hover
 .logo
 {
     height: 500px;
+    transform: translateY(100px);
+    
 }
-
-.perfil
+/*seção do perfil*/
+#perfil
 {
     padding-top: 400px;
     padding-left: 700px;
@@ -102,5 +105,253 @@ h3
 }
 h2.infos
 {
+    padding-top: 2em;
     text-align: center;
+}
+
+/*seção de skills*/
+
+.h1-skills
+{
+    position: relative;
+    padding-right: 118px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.skills-line
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.skills-box
+{
+    background-color: #292540;
+    margin: 22px 0 22px 0;
+    width: 158px;
+    height: 200px;
+    border-radius: 12px;
+    transition: 300ms;
+    border-style: solid;
+    border-color: #62BF49;
+    border-width: 3px;
+}
+
+
+.icone
+{
+    color: #ffffff;
+    font-size: 60px;
+    position: absolute;
+    padding-top: 130px;
+    padding-left: 12px;
+}
+.txt-skills
+{
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    padding-top: 180px;
+    padding-left: 100px;
+}
+/*seção de formação*/
+.formação
+{
+    padding-left: 100px;
+}
+
+.h1-formação
+{
+    position: relative;
+    padding-right: 208px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.forms
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img-cefet
+{
+    height: 250px;
+    
+}
+
+.cefetlog
+{
+    padding-top: 65px;
+}
+
+.img-alura
+{
+    height: 100px;
+}
+
+.aluralog
+{
+    padding-top: 120px;
+}
+
+.form-box
+{
+    background-color: #292540;
+    margin: 22px 0 22px 0;
+    width: 400px;
+    height: 380px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #62BF49;
+    border-width: 3px;
+    
+}
+
+.txt-eng
+{
+    padding-top: 10px;
+    color: #62BF49;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.txt-alura
+{
+    padding-top: 120px;
+    color: #62BF49;
+    font-family: 'Bebas Neue', cursive;
+}
+/*seção de Trabalhos*/
+
+.projetos
+{
+    position: relative;
+    padding-right: 100px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.trab1
+{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 250px;
+}
+
+
+.beholderz
+{
+    height: 300px;
+    border-style: solid;
+    border-color: #62BF49;
+    border-radius: 12px;
+    border-width: 3px;
+}
+
+.pbeholder
+{
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.txt-beholder
+{
+    padding-top: 140px;
+    padding-right: 600px;
+}
+
+/*seção de contato/footer*/
+
+.contato
+{
+    padding-left: 100px;
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.contatar
+{
+    height: 300px;
+}
+
+.contact-text
+{
+    padding-left:80px ;
+}
+
+.contact-title
+{
+    font-size: 30px;
+   
+}
+
+a.contatar > i
+{
+    font-size: 320px;
+    color: #62BF49;
+}
+
+.form
+{
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 auto;
+    padding-top: 35px;
+    margin: auto;
+}
+
+.contato-input
+{
+    border: none;
+    border-radius: 12px;
+    background-color: #292540;
+    border-color: #62BF49;
+    box-shadow:1px 0 12px #62BF49;
+    color: #62BF49;
+}
+
+.contato-textarea
+{
+    border: none;
+    border-radius: 12px;
+    background-color: #292540;
+    border-color: #62BF49;
+    box-shadow:1px 0 12px #62BF49;
+    color: #62BF49;
+}
+
+.contato__botao
+{
+    border: none;
+    border-radius: 12px;
+    background-color: #292540;
+    border-color: #62BF49;
+    box-shadow:1px 0 12px #62BF49;
+    color: #4962F2;
+    font-weight: bold;
+    font-family:'Bebas Neue', cursive;
+    margin: 50px 50px;
+    text-align: center;
+}
+.mensagem-erro
+{
+    color: #62BF49;
+    font-family: 'Bebas Neue', cursive;
+}
+
+fieldset
+{
+    display: flex;
+    flex-direction: column;
 }
